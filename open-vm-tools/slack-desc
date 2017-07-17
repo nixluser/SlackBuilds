@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.
+# Line up the first '|' above the ':' following the base package name, and
+# the '|' on the right side marks the last column you can put a character in.
+# You must make exactly 11 lines for the formatting to be correct.  It's also
+# customary to leave one space after the ':' except on otherwise blank lines.
+
+             |-----handy-ruler------------------------------------------------------|
+open-vm-tools: open-vm-tools (Open VMware Tools)
+open-vm-tools:
+open-vm-tools: The open-vm-tools are a subset of the VMware Tools, currently 
+open-vm-tools: composed of kernel modules for Linux and user-space programs for all 
+open-vm-tools: VMware supported Unix like guest operating systems. 
+open-vm-tools:
+open-vm-tools: Project Page: https://github.com/vmware/open-vm-tools 
+open-vm-tools:
+open-vm-tools: Patched for lib/wiper/wiperPosix.c to include sys/sysmacros.h for 
+open-vm-tools: compatibility with glibc-2.25 and above. NO PAM OR VGAUTH SUPPORT 
+open-vm-tools:

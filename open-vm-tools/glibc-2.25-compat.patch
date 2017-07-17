@@ -1,0 +1,11 @@
+diff -rupN open-vm-tools-10.1.5-5055683/lib/wiper/wiperPosix.c open-vm-tools-10.1.5-5055683/lib/wiper/wiperPosix.c
+--- open-vm-tools-10.1.5-5055683/lib/wiper/wiperPosix.c	2017-02-11 05:06:43.000000000 -0500
++++ open-vm-tools-10.1.5-5055683/lib/wiper/wiperPosix.c	2017-05-23 10:56:10.057822341 -0400
+@@ -31,6 +31,7 @@
+ #include <sys/stat.h>
+ #if defined(__linux__) || defined(sun)
+ # include <sys/vfs.h>
++# include <sys/sysmacros.h>
+ #elif defined(__FreeBSD__) || defined(__APPLE__)
+ # include <sys/param.h>
+ # include <sys/ucred.h>

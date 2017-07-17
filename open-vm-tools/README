@@ -1,0 +1,11 @@
+open-vm-tools (Open VMware Tools)
+
+The open-vm-tools are a subset of the VMware Tools, currently 
+composed of kernel modules for Linux and user-space programs for all 
+VMware supported Unix like guest operating systems. 
+
+Project Page: https://github.com/vmware/open-vm-tools 
+
+Patched lib/wiper/wiperPosix.c to include sys/sysmacros.h for 
+compatibility with glibc-2.25 and above. NO PAM OR VGAUTH SUPPORT 
+
